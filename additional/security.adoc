@@ -1,0 +1,76 @@
+---
+sidebar: sidebar 
+permalink: additional/security.html 
+keywords:  
+summary:  
+---
+= 安全性
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Astra Control REST API提供多層安全性。
+
+
+NOTE: 所有HTTP網路流量均使用傳輸層安全性（TLS）傳輸協定標準加以保護。
+
+
+
+== Astra API權杖
+
+若要使用Astra Control REST API、您必須針對「授權」要求標頭中的每個要求提供API權杖。請注意下列事項：
+
+* 您可以在Astra網路使用者介面產生API權杖。
+* 權杖建立後永遠不會過期。
+* 您可以隨時在Astra網路使用者介面上撤銷權杖。
+
+
+請參閱 link:../get-started/get_api_token.html["取得API權杖"] 以取得更多資訊。
+
+
+
+== 撤銷API存取權杖
+
+您可以在Astra Web介面上撤銷不再需要的API權杖。
+
+您需要Astra服務帳戶。您也應該識別要撤銷的權杖。
+
+撤銷權杖之後、權杖會立即且永久地無法使用。
+
+.步驟
+. 使用您的帳戶認證登入Astra。
++
+存取Astra Control Service的下列站台： https://astra.netapp.io/["https://astra.netapp.io"^]
+
+. 按一下頁面右上角的圖示、然後選取「* API access*（* API存取*）」。
+. 選取您要撤銷的權杖。
+. 在「*動作*」下拉式方塊下、按一下「*撤銷權杖*」。
+
+
+
+
+== 角色與存取控制
+
+每位Astra使用者都會被指派至單一角色、以決定可執行的動作。這些角色會依照下表所述的階層架構來排列。
+
+[cols="15,85"]
+|===
+| 角色 | 說明 
+
+
+| 擁有者 | 擁有管理員角色的所有權限、也可以刪除Astra帳戶。 
+
+
+| 管理 | 擁有成員角色的所有權限、也可以邀請使用者加入帳戶。 
+
+
+| 成員 | 能夠完全管理Astra應用程式和運算資源。 
+
+
+| 檢視者 | 僅限檢視資源。 
+|===

@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: rn/about.html 
+keywords:  
+summary:  
+---
+= 關於本版本
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+本網站的文件說明Astra Control的Astra Control REST API及相關自動化技術、這些技術可在2021年12月（21日12）版Astra Control中使用。特別是、此版本的REST API隨附於Astra Control Center的相應版本21.12中。
+
+請參閱下列頁面和網站、以取得本版本及先前版本的詳細資訊：
+
+* link:../rn/whats_new.html["Astra Control REST API的新功能"]
+* link:../endpoints/resources.html["資源與端點"]
+* https://docs.netapp.com/us-en/astra-control-center-2112/["Astra Control Center 21.12文件"^]
+* link:../aa-earlier-versions.html["舊版Astra Automation文件"]
+

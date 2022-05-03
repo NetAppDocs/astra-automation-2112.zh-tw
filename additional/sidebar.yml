@@ -1,0 +1,10 @@
+---
+section: additional
+title: 其他休息考量
+entries:
+- title: 安全性
+  url: "/additional/security.html"
+- title: 使用集合
+  url: "/additional/working_with_collections.html"
+- title: 診斷
+  url: "/additional/diagnostics_support.html"
