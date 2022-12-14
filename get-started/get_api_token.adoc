@@ -19,8 +19,10 @@ summary:
 
 NOTE: Astra API權杖永遠不會過期、但您可以在不再需要權杖時予以撤銷。
 
+.開始之前
 您需要Astra帳戶的認證資料。
 
+.關於這項工作
 此工作會在Astra網路介面產生API權杖。您也應該擷取進行API呼叫所需的帳戶ID。
 
 .步驟
@@ -34,4 +36,5 @@ NOTE: Astra API權杖永遠不會過期、但您可以在不再需要權杖時�
 . 複製並儲存相同頁面上的帳戶ID。
 
 
+.完成後
 當您透過Curl或程式設計語言存取Astra Control REST API時、必須在「授權」要求標頭中加入API承載權杖。若要撤銷權杖、請參閱 link:../additional/security.html["安全性"]。

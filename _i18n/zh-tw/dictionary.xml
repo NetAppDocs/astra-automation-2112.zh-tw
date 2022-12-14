@@ -96,7 +96,6 @@
   <block id="78ceba6718263592394adb03dc11471c" category="paragraph">您應該檢閱Astra Control REST API目前版本的所有已知問題。已知問題可識別可能導致您無法成功使用產品的問題。</block>
   <block id="f977fda19bbfe49b9346f60f532f0704" category="section-title">並未探索後端儲存節點中的所有儲存裝置</block>
   <block id="13595bcf3f8022567de41bcd09ef92b2" category="paragraph">發出REST API呼叫以擷取儲存節點中定義的儲存裝置時、只會探索Astra Data Store裝置。並非所有裝置都會歸還。</block>
-  <block id="fd341dfea170932946910997510c48e8" category="section-title">Astra Data Store儲存後端處於未知狀態</block>
   <block id="e1c83179f57e62cb00fbb2646ef58e6e" category="paragraph">Astra Data Store儲存後端在發出API呼叫以擷取儲存後端後端後端後端時、會處於「未知」狀態。在這種情況下、儲存後端實際上仍然可用、可以與通訊。不過、儲存後端內的元件可能處於不正常狀態、因此需要將其恢復為正常狀態、以便儲存後端顯示為「可用」。</block>
   <block id="c93cc787737ceea532bea714170e32cf" category="doc">Astra Control REST API的新功能</block>
   <block id="b0c0f8ac8f671541655d3d0e2beb2ce8" category="paragraph">NetApp會定期更新Astra Control REST API、為您帶來新功能、增強功能和錯誤修復。</block>
@@ -345,8 +344,6 @@
   <block id="6cb8b958a36383ed1b7bacc626d0a5dd" category="section-title">資源狀態</block>
   <block id="b7aa38141b9dd3f7e78cd09e7f60ce0c" category="paragraph">所選資源是一種「最大」值、用於協調生命週期轉換和控制存取。</block>
   <block id="94fd56b370187429c8fbd312f50f5c1b" category="paragraph">用於透過REST API存取資源執行個體或集合的URL一般結構由數個值組成。此結構反映基礎物件模型和系統設計。</block>
-  <block id="04af7c5cae35340b12ac2ff18f2993fb" category="section-title">URL格式</block>
-  <block id="3e0ab85384ebe4f846202e772b341dc5" category="paragraph">URL格式及範例如下所示。</block>
   <block id="6e84a7dae5ae82dd22a0ec6f456dbc8d" category="section-title">帳戶為root</block>
   <block id="e166d573b25ce4160633b91145d1eae5" category="paragraph">每個REST端點的資源路徑根目錄為Astra帳戶。因此URL中的所有路徑都以「/ACE/{ACUID_ID}」開頭、其中「ACU_ID」是帳戶的唯一UUIDv4值。內部架構反映出所有資源存取都以特定帳戶為基礎的設計。</block>
   <block id="faf17fd8415851163c880ffe0eee8b37" category="section-title">端點資源類別</block>
@@ -861,4 +858,7 @@
   <block id="879ad4bddb82a977b90643c7b33a4e49" category="sidebar">從備份複製應用程式</block>
   <block id="dc299aaf3e84eb3627f50d2d2484cf17" category="sidebar">從備份還原應用程式</block>
   <block id="999e0dcec594b55111b1ede61b4409f5" category="sidebar">列出通知</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">關於這項工作</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
+  <block id="02888730c53ce06848a227c66075dfd4" category="section-title">Astra Data Store儲存後端<block ref="88183b946cc5f0e8c96b2e66e1c74a7e" prefix=" " category="inline-code"></block> 州/省</block>
 </blocks>
