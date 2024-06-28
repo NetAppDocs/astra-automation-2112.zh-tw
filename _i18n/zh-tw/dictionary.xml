@@ -57,7 +57,6 @@
   <block id="c37989e11868a0f90a80fc60977df53f" category="cell">能夠完全管理Astra應用程式和運算資源。</block>
   <block id="fb15c53f22336982a182b84aeb2f42eb" category="cell">檢視者</block>
   <block id="29b1525afac196c8ab375f7fdb7808de" category="cell">僅限檢視資源。</block>
-  <block id="c6c51849eeb1ac322baa3a99b7cd7e43" category="summary">這是Astra Automation的摘要。</block>
   <block id="d61b1a26306fd2300000d407ac76b0ca" category="doc">Astra Control Automation 21.12文件</block>
   <block id="5bfa69d8f97671928100931c0d411913" category="doc">Astra Control REST API簡介</block>
   <block id="640575a1239211b2cdac8d24cbd8fe4e" category="paragraph">Astra Control Center和Astra Control Service提供通用的REST API、可讓您直接透過編程語言或Curl等公用程式存取。API的主要重點和優點如下所示。</block>
@@ -865,4 +864,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="775e2faa120631457b3eb5f26a2f323a" category="sidebar">Astra Control是NetApp軟體產品、可為Kubernetes應用程式提供資料生命週期管理功能。視您的環境而定、有兩種部署模式可供選擇。Astra Control Center和Astra Control Service在特定版本中共用相同的REST API。您可以使用API及其他相關的自動化技術來管理Astra Control部署。</block>
 </blocks>
